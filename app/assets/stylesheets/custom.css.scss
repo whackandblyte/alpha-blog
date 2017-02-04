@@ -47,3 +47,21 @@ footer ul li {
   padding-right: 10px;
 }
 
+.article-actions {
+  padding-top: 10px;
+}
+
+.topic-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.topic-title a:hover {
+  text-decoration: none;
+}
+
+.topic-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

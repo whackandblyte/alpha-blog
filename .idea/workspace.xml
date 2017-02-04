@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3d5eb5-fdcb-4180-9b11-800c77a5fbfb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shared/_errors.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/articles/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/new.html.erb" afterPath="$PROJECT_DIR$/app/views/articles/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/show.html.erb" afterPath="$PROJECT_DIR$/app/views/articles/show.html.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +20,7 @@
     <SUITE FILE_PATH="coverage/alpha-blog@db_reset__alpha_blog.coverage" NAME="db:reset: alpha-blog Coverage Results" MODIFIED="1483297750894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="alpha-blog" />
     <SUITE FILE_PATH="coverage/alpha-blog@Rails_console__alpha_blog.coverage" NAME="Rails console: alpha-blog Coverage Results" MODIFIED="1484514071562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="alpha-blog" />
     <SUITE FILE_PATH="coverage/alpha-blog@routes__alpha_blog.coverage" NAME="routes: alpha-blog Coverage Results" MODIFIED="1485104543060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="alpha-blog" />
-    <SUITE FILE_PATH="coverage/alpha-blog@Development__alpha_blog.coverage" NAME="Development: alpha-blog Coverage Results" MODIFIED="1486143792128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="alpha-blog" />
+    <SUITE FILE_PATH="coverage/alpha-blog@Development__alpha_blog.coverage" NAME="Development: alpha-blog Coverage Results" MODIFIED="1486246087549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="alpha-blog" />
     <SUITE FILE_PATH="coverage/alpha-blog@db_migrate__alpha_blog.coverage" NAME="db:migrate: alpha-blog Coverage Results" MODIFIED="1484505247366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="alpha-blog" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -42,31 +40,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="custom.css.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.css.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="674">
+              <caret line="59" column="24" lean-forward="false" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/articles/_form.html.erb">
+      <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_messages.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_messages.html.erb">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="0">
+              <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -103,9 +101,7 @@
         <option value="$PROJECT_DIR$/db/migrate/20170115182156_add_description_to_articles.rb" />
         <option value="$PROJECT_DIR$/app/models/article.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
@@ -113,12 +109,14 @@
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/views/articles/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_errors.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
       </list>
     </option>
   </component>
@@ -157,8 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -355,7 +352,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -714,7 +712,9 @@
       <workItem from="1485797751179" duration="4941000" />
       <workItem from="1485887102711" duration="6379000" />
       <workItem from="1485971762714" duration="5114000" />
-      <workItem from="1486143779255" duration="5234000" />
+      <workItem from="1486143779255" duration="5866000" />
+      <workItem from="1486159436836" duration="1455000" />
+      <workItem from="1486245813289" duration="2922000" />
     </task>
     <task id="LOCAL-00001" summary="Added new templates, routes and methods">
       <created>1484679053919</created>
@@ -744,11 +744,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485900532704</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Designed status / error messages, added some partials">
+      <created>1486151457918</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1486151457918</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64388000" />
+    <option name="totallyTimeSpent" value="69397000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -761,13 +768,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16950959" sideWeight="0.49047014" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17270789" sideWeight="0.49047014" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18440464" sideWeight="0.49583334" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22655427" sideWeight="0.4989339" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22655427" sideWeight="0.5010661" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22655427" sideWeight="0.5010661" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23393045" sideWeight="0.49840087" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17492098" sideWeight="0.5026652" order="9" side_tool="false" content_ui="tabs" />
@@ -779,7 +787,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -812,7 +819,8 @@
     <MESSAGE value="Added index listing, edit functionality" />
     <MESSAGE value="Added partials, destroy action" />
     <MESSAGE value="Installed Bootstrap, designed home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Installed Bootstrap, designed home page" />
+    <MESSAGE value="Designed status / error messages, added some partials" />
+    <option name="LAST_COMMIT_MESSAGE" value="Designed status / error messages, added some partials" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1068,7 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,21 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1105,15 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,7 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,18 +1115,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_messages.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_messages.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="59" column="24" lean-forward="false" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
           <folding />
         </state>
       </provider>

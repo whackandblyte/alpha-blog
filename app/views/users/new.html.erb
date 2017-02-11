@@ -1,0 +1,42 @@
+<h1 align="center">Sign up</h1>
+
+<%= render 'shared/errors', obj: @user %>
+
+<div class="row">
+  <div class="col-xs-12">
+    <%= form_for(@user, :html => {class: "form-horizontal", role: "form"}) do |f| %>
+        <div class="form-group">
+          <div class="control-label col-sm-2">
+            <%= f.label :username %>
+          </div>
+          <div class="col-sm-8">
+            <%= f.text_field :username, class: "form-control", placeholder: "Enter your username", autofocus: true %>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="control-label col-sm-2">
+            <%= f.label :email %><br>
+          </div>
+          <div class="col-sm-8">
+            <%= f.email_field :email, class: "form-control col-sm-10", placeholder: "Enter your email adress" %>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="control-label col-sm-2">
+            <%= f.label :password %><br>
+          </div>
+          <div class="col-sm-8">
+            <%= f.password_field :password, class: "form-control col-sm-10", placeholder: "Enter a secure password" %>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-2">
+            <%= f.submit "Done!", class: "btn btn-default" %>
+          </div>
+        </div>
+    <% end %>
+  </div>
+</div>
+<div class="col-sm-4 col-sm-offset-5">
+  <%= link_to "Cancel", articles_path %>
+</div>

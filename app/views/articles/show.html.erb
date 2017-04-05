@@ -7,7 +7,9 @@
   </div>
 </div>
 <div class="article-actions center">
+  <% if logged_in? && @article.user == current_user %>
   <%= link_to "Edit topic", edit_article_path, class: 'btn btn-s btn-primary' %>
   <%= link_to "Delete topic", article_path(@article), method: :delete, data: {confirm: "Are you sure you want to delete this topic?"}, class: "btn btn-s btn-danger"%>
+  <% end %>
   <%= link_to "Back", articles_path, class: 'btn btn-s btn-success' %>
 </div>

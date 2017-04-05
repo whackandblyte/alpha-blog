@@ -20,13 +20,13 @@
           </div>
         </div>
         <div class="form-group">
-          <div class="col-sm-offset-2 col-sm-2">
-            <%= f.submit class: "btn btn-default" %>
+          <div class="row">
+            <div class="col-md-offset-4 col-md-4">
+              <%= f.submit class: "btn btn-success" %>
+              <%= link_to 'Cancel', articles_path, class: "btn btn-s btn-primary" %>
+            </div>
           </div>
         </div>
     <% end %>
   </div>
-</div>
-<div class="col-sm-4 col-sm-offset-5">
-  <%= link_to "Cancel", articles_path %>
 </div>

@@ -1,6 +1,8 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:edit, :update, :show]
-  before_action :require_corresponding_user, only: [:edit, :update]
+  before_action :require_corresponding_user, only: [:edit, :update, :destroy]
+  before_action :require_admin, only: :destroy
+
   def new
     @user = User.new
   end
@@ -36,14 +38,28 @@ class UsersController < ApplicationController
     @user_articles = @user.articles.paginate(page: params[:page], per_page: 5)
   end
 
+  def destroy
+    @user = User.find(params[:id])
+    @user.destroy
+    flash[:danger] = "User has been successfully deleted."
+    redirect_to users_path
+  end
+
   def set_user
     @user = User.find(params[:id])
   end
 
   def require_corresponding_user
-    if current_user != @user
+    if current_user != @user && !current_user.admin?
       flash[:danger] = "You can only edit your own profile!"
       redirect_to users_path
+    end
+  end
+
+  def require_admin
+    if logged_in? && !current_user.admin?
+      flash[:danger] = "Only admins can do that."
+      redirect_to root_path
     end
   end
 

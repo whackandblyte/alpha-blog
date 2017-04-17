@@ -20,7 +20,7 @@ class ApplicationController < ActionController::Base
   end
 
   def require_corresponding_user
-    if current_user != @article.user
+    if current_user != @article.user && !current_user.admin?
       flash[:danger] = "You can only edit or delete your own topics!"
       redirect_to articles_path
     end

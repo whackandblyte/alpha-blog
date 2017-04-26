@@ -1,6 +1,9 @@
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 align="center"> <% if @article.user %><%= gravatar_for @article.user, size: 22 %> &ensp; <%= link_to @article.user.username, user_path(@article.user) %>  &emsp; &#124; &emsp; <% end %><%= @article.title %></h4>
+    <% if @article.categories.any? %>
+      <p align="center"><%= render @article.categories %></p>
+    <% end %>
   </div>
   <div class="panel-body">
     <%= simple_format(@article.description) %>

@@ -21,6 +21,15 @@
         </div>
         <div class="form-group">
           <div class="row">
+            <div class="col-md-offset-2 col-md-8">
+              <%= f.collection_check_boxes :category_ids, Category.all, :id, :name do |cb| %>
+                <%= cb.label(class: "checkbox-inline input_checkbox") {cb.check_box(class: "checkbox") + cb.text} %>
+              <% end %>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
             <div class="col-md-offset-4 col-md-4">
               <%= f.submit class: "btn btn-success" %>
               <%= link_to 'Cancel', articles_path, class: "btn btn-s btn-primary" %>

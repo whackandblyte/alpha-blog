@@ -29,6 +29,19 @@
   color: #777;
 }
 
+.badge {
+  background-color: #999999;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.badge a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 
 /* ************** FOOTER STYLING ************** */
 
@@ -81,4 +94,8 @@ footer ul li {
 
 .listing li {
   text-align: center;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }
